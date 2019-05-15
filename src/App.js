@@ -100,7 +100,7 @@ export class FirstApp extends React.Component {
 
   handleAlert() {
     if (this.props.code === " src/app") {
-      alert("hiiiiii i got the prop");
+      alert("Hi, I got the prop");
     } else {
       alert("err");
     }
@@ -324,7 +324,7 @@ export class FirstApp extends React.Component {
                 }}
                 onClick={this.consoleIt}
               >
-                <b>ALL BTS</b>
+                <b>BIGGEST BUTTON</b>
               </button>
             </div>
             <div className="MyApp">
@@ -369,7 +369,7 @@ export class FirstApp extends React.Component {
                   <button onClick={this.toggleSong}>Current state</button>
                   <p>This means {this.state.songs}</p>
                   <button onClick={this.imgToggle}>Change Background</button>
-                  <p>Need some cool animation huh?</p>
+                  <p>Need another background huh?</p>
                 </div>
                 {
                   //Player component render
