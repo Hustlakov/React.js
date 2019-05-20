@@ -8,6 +8,7 @@ import Lightbox from "react-images";
 import ImageGallery from "react-image-gallery";
 import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 import { Timer } from "./timer";
+import { Stopwatch } from "./stopwatch";
 
 //FIRST COMPONENT
 export class FirstApp extends React.Component {
@@ -281,6 +282,7 @@ export class FirstApp extends React.Component {
             <div>Item - </div>
             <div>Item - </div>
             <div>Item - </div>
+            <Stopwatch />
           </div>
           <div
             className="col-sm-9 border-top border-left border-danger"
